@@ -10,6 +10,8 @@ def calculate_total_cost():
     except ValueError:
         messagebox.showerror("Invalid Input", "Please enter valid numeric values for costs.")
 
+print ("hello world")
+"""
 # Create the main application window
 root = tk.Tk()
 root.title("Lightbulb Cost Calculator")
@@ -36,3 +38,4 @@ result_label.pack(pady=10)
 
 # Run the application
 root.mainloop()
+"""
